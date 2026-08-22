@@ -204,10 +204,10 @@ export default function SequenceSundaram() {
             </div>
           </article>
         </div>
+        <footer className="projects-footer">
+          <a href="https://links-page-bennibeni.vercel.app/">← All projects</a>
+        </footer>
       </section>
-      <footer className="projects-footer">
-        <a href="https://links-page-bennibeni.vercel.app/">← All projects</a>
-      </footer>
     </main>
   );
 }
