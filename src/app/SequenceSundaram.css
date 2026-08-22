@@ -22,6 +22,7 @@
   line-height: 1.45;
   min-height: 100vh;
   padding: clamp(20px, 4vw, 48px);
+  padding-bottom: 92px;
 }
 
 .sundaram-hero {
@@ -286,12 +287,18 @@
 }
 
 .projects-footer {
+  bottom: 16px;
+  box-sizing: border-box;
   width: min(680px, 100%);
   margin: 18px auto 0;
   padding: 14px 18px;
   border: 1px solid #b9cee8;
   border-radius: 8px;
   background: var(--accent-soft);
+  left: 50%;
+  position: fixed;
+  transform: translateX(-50%);
+  z-index: 10;
 }
 
 .projects-footer a {
